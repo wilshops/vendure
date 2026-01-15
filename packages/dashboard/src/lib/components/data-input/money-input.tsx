@@ -60,6 +60,11 @@ export function MoneyInput(props: Readonly<MoneyInputProps>) {
             currency: activeCurrency,
             currencyDisplay: 'symbol',
         }).formatToParts();
+
+        if (activeCurrency === 'CUP') {
+            return '₱';
+        }
+
         return parts.find(p => p.type === 'currency')?.value ?? activeCurrency;
     }, [activeCurrency, bcp47Tag]);
 

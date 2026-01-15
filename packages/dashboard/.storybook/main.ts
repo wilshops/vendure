@@ -2,7 +2,7 @@ import type { StorybookConfig } from '@storybook/react-vite';
 
 import { dirname, resolve } from 'path';
 
-import { vendureDashboardPlugin } from '@vendure/dashboard/vite';
+import { vendureDashboardPlugin } from '@wilshop/dashboard/vite';
 import { fileURLToPath, pathToFileURL } from 'url';
 import { extractJSDocPlugin } from './extract-jsdoc-plugin.js';
 import { transformJSDocPlugin } from './transform-jsdoc-plugin.js';

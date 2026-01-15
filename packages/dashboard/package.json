@@ -1,11 +1,11 @@
 {
-    "name": "@vendure/dashboard",
+    "name": "@wilshop/dashboard",
     "private": false,
-    "version": "3.5.2",
+    "version": "3.5.6",
     "type": "module",
     "repository": {
         "type": "git",
-        "url": "https://github.com/vendurehq/vendure"
+        "url": "https://github.com/wilshop/vendure"
     },
     "homepage": "https://www.vendure.io",
     "funding": "https://github.com/sponsors/michaelbromley",
